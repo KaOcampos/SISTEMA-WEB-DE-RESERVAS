@@ -1,0 +1,37 @@
+
+label span {color: gray;}
+label input:checked + span {color: black;}
+
+#cb_validacion:empty {display: none;}
+#cb_validacion {background: rgb(247, 201, 208); color: darkred; padding: 6px 10px;
+margin: 5px 0; display: block;}
+
+#resultado:empty {display: none;}
+
+.formulario__grupo-input {
+	position: relative;
+}
+
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
+}
+
+.formulario__grupo-correcto {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto {
+	color: #bb2929;
+	opacity: 1;
+}
